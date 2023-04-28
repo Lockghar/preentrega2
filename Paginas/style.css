@@ -1,0 +1,167 @@
+/*HEADER INICIO*/
+
+.encabezado {
+    background-color: #005BA2;
+}
+
+.cabezilla {
+    background-color: #005BA2;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.logoindex {
+    height: 200px;
+    background-color: #005BA2;
+
+}
+
+.loguito {
+    height: 200px;
+    width: 200px;
+}
+
+.directory {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.indice {
+    display: flex;
+    justify-content: space-around;
+    align-content: end;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: end;
+    border-right: 20px;
+}
+/*HEADER FINAL*/
+
+/* MAIN  index INICIO */
+
+.empaquetador{
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferton{
+    background-color: rgba(141, 140, 140, 0.336);
+}
+
+.descripcion{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color:#005BA2;
+}
+
+/*MAIN indexFINAL*/
+
+/*main empresa inicio*/
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.video {
+    width: 50%;
+    height: 80%;
+    padding: 20px;
+  }
+
+.map-container {
+    width: 100%;
+    height: 450px;
+    margin: 20px 0;
+ 
+  }
+
+/*main empresa final*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer */
+
+
+.piecito{
+    background-color: #005BA2;
+    padding: 10px;
+    height: 72px;
+}
+.redesfot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textiño{
+    margin: 0;
+    color: white;
+}
+.logofot{
+    display: flex;
+}
+.logo1{
+    margin-right: 10px;
+    height: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+
+
+}
+
+*/
+
+
+
+/*
+.pie {
+    background-color: #005BA2;
+    height: 170px;
+}
+.insta{
+    height: 100px;
+}
+.face{
+    height: 100px;
+}
+*/
+
+/*footer final*/
