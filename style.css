@@ -12,6 +12,11 @@
 }
 
 
+.directory {
+    align-items: end;
+}
+
+
 .logoindex {
     height: 200px;
     background-color: #005BA2;
@@ -27,13 +32,14 @@
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    align-items: end;
     
 }
 
 .indice {
-    display: flex;
+ /*   display: flex;*/
     justify-content: space-around;
-    align-content: end;
+    align-items: end;
     color: antiquewhite;
     text-decoration: none;
     text-align: end;
@@ -43,20 +49,8 @@
 
 /* MAIN  index INICIO */
 
-.empaquetador{
-    display: flex;
-    justify-content: space-between;
-}
-
-.oferton{
-    background-color: rgba(141, 140, 140, 0.336);
-}
-
-.descripcion{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: larger;
-    color:#005BA2;
+.card-img-top{
+    height: 15%;
 }
 
 /*MAIN indexFINAL*/
@@ -69,22 +63,25 @@
 }
 
 .video {
-    width: 50%;
+    width: 85%;
     height: 80%;
     padding: 20px;
   }
 
-.map-container {
+.map {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 450px;
-    margin: 20px 0;
- 
+     
   }
 
 /*main empresa final*/
 
 
-
+.video {
+    height: 100%;
+}
 
 
 
